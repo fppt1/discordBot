@@ -13,7 +13,7 @@ def get_prefix(client, message):
     
     return prefixes[str(message.guild.id)]
 
-TOKEN = "NjAzOTkzOTU1OTM5NTE2NDE5.XwMmuw.CBOq1_XqjDhh2nmlpnDnXvxChJM"
+TOKEN = "Token here"
 client = commands.Bot(command_prefix = get_prefix)
 
 @client.event
